@@ -1,0 +1,27 @@
+table {
+  font-size: 20px;
+}
+
+.card {
+  text-align: center;
+  display: flex;
+  height: 35px;
+  width: 85px;
+  background-color: #3b4997;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 15px;
+
+}
+
+.card a {
+  text-decoration: none;
+  color: white;
+}
+
+.card:hover {
+  background-color: #000a58;
+  cursor: pointer;
+}

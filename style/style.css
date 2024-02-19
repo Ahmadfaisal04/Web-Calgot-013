@@ -1,0 +1,298 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana;
+}
+
+.navigasi {
+  background-color: #3b4997;
+  width: 100%;
+  height: 50px;
+  color: white;
+  position: fixed;
+}
+
+.navigasi a {
+  text-decoration: none;
+  color: white;
+}
+
+#logo {
+  float: left;
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+.menu {
+  float: right;
+  padding-top: 15px;
+}
+
+.menu ul li {
+  list-style: none;
+  display: inline-block;
+  margin-right: 50px;
+}
+
+.menu ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.menu ul li a:hover {
+  color: lightskyblue;
+}
+
+.banner {
+  background-image: url("/img/banner.jpg");
+  height: 555px; 
+  background-size: cover;
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-size: 25px;
+  padding-top: 275px;
+}
+
+#section {
+  padding-top: 30px;
+}
+
+#people h2 {
+  text-align: center;
+  margin-top: 30px;
+  font-size: 30px
+}
+
+#card-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 20px;
+  gap: 20px;
+}
+
+
+
+.card {
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  padding: 10px;
+  height: 150px;
+  width: 150px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border: 1px solid #e0e0e0;
+  margin: 10px;
+}
+
+.card img {
+  width: 100px;
+  border-radius: 50%;
+  display: block;
+  margin: 0 auto;
+}
+
+.card h3 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.card p {
+  font-size: 14px;
+  color: #4d4d4d;
+}
+
+.card h3 a {
+  text-decoration: none;
+  color: black;
+}
+
+.nama {
+  text-align: center;
+  display: flex;
+  height: 30px;
+  width: 80px;
+  background-color: #3b4997;
+  border-radius: 50px;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  margin-top: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.nama a {
+  text-decoration: none;
+  color: white;
+}
+
+.nama:hover {
+  background-color: #000a58;
+  cursor: pointer;
+}
+
+#gallery {
+  text-align: center;
+  padding-top: 60px;
+}
+
+#gallery h2 {
+  font-size: 30px;
+}
+
+div.galeri {
+  margin: 10px;
+  margin-left: 35px;
+  border: 1px solid #ccc;
+  float: left;
+  width: 250px;
+}
+
+div.galeri:hover {
+  border: 1px solid #777;
+}
+
+div.galeri img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+
+#kontak {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#kontak h2 {
+margin-top: 430px;
+font-size: 30px;
+}
+
+
+form {
+  max-width:420px;
+  margin:20px auto;
+}
+
+.feedback-input {
+  color:white;
+  font-weight:500;
+  font-size: 18px;
+  border-radius: 5px;
+  line-height: 22px;
+  background-color: transparent;
+  border:2px solid lightskyblue;
+  transition: all 0.3s;
+  padding: 13px;
+  margin-bottom: 15px;
+  width:100%;
+  box-sizing: border-box;
+  outline:0;
+}
+
+.feedback-input:focus { border:2px solid #000a58; }
+
+textarea {
+  height: 150px;
+  line-height: 150%;
+  resize:vertical;
+}
+
+[type="submit"] {
+  width: 100%;
+  background:#3b4997;
+  border-radius:5px;
+  border:0;
+  cursor:pointer;
+  color:white;
+  font-size:24px;
+  padding-top:10px;
+  padding-bottom:10px;
+  transition: all 0.3s;
+  margin-top:-4px;
+  font-weight:700;
+}
+[type="submit"]:hover { background:#000a58; }
+
+/* footer */
+
+footer {
+  background-color: #333; /* Warna latar belakang footer */
+  color: #fff; /* Warna teks footer */
+  padding: 20px 0; /* Ruang padding atas dan bawah footer */
+  text-align: center; /* Teks di tengah */
+}
+
+.footer a {
+  color: #fff; /* warna tautan */
+  text-decoration: none; /* hapus dekorasi tautan */
+}
+
+
+/* untuk layar hp */
+@media (max-width: 600px) {
+  .menu ul li {
+    display: block;
+    margin-bottom: 10px;
+  }
+
+  .menu ul li a {
+    font-size: 15px;
+  }
+
+  .navigasi {
+    height: auto;
+  }
+
+  #logo {
+    align-items: center;
+    margin-top: 45px;
+  }
+
+  #section {
+    padding-top: 110px;
+  }
+
+  .card {
+    background-color: #f0f0f0;
+    border-radius: 10px;
+    padding: 10px;
+    height: 150px;
+    width: 150px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+    margin: -5px;
+  }
+
+  #gallery {
+    padding-top: 150px;
+  }
+
+  div.galeri {
+    margin: 10px;
+    margin-left: 70px;
+    border: 1px solid #ccc;
+    float: left;
+    width: 250px;
+  }
+
+  #kontak {
+    padding: 0 20px; 
+    padding-top: 150px;
+  }
+  .feedback-input {
+    width: 100%; /* Mengatur lebar input ke 100% agar sesuai dengan lebar layar kecil */
+    margin-bottom: 10px; /* Menambahkan sedikit ruang antar input */
+  }
+
+  footer {
+    padding: 10px 0; /* Mengurangi ruang padding atas dan bawah untuk layar kecil */
+  }
+}
