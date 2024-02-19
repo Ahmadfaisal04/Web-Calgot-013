@@ -235,7 +235,7 @@ footer {
   text-decoration: none; /* hapus dekorasi tautan */
 }
 
-
+ 
 /* untuk layar hp */
 @media (max-width: 600px) {
   .menu ul li {
