@@ -369,3 +369,9 @@ footer {
     padding: 10px 0; /* Mengurangi ruang padding atas dan bawah untuk layar kecil */
   }
 }
+
+@media (min-width: 901px) and (max-width: 1920px) {
+ #kontak h2 {
+  margin-top: 620px;
+ }
+}
